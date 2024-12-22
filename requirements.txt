@@ -1,0 +1,39 @@
+1. os >=3.12.2
+2. subprocess >=3.12.2
+3. zipfile >=3.12.2
+4. pyyaml >=5.3.1  # Versione minima richiesta
+5. pytorch >=1.8.0  # v2.3.0 raccomandato
+6. opencv-python >=4.1.1  # v4.9.0.80 consigliato
+7. numpy >=1.23.5  # v1.26.4 consigliato
+8. matplotlib >=3.3  # v3.9.2 consigliato
+9. scipy >=1.4.1  # v1.13.1 consigliato
+10. tqdm >=4.66.3  # v5.14.3 consigliato
+11. gitpython >=3.1.30
+12. pillow >=10.3.0
+13. psutil
+14. requests >=2.32.2
+15. thop >=0.1.1  # Calcolo FLOPs
+16. torchvision >=0.9.0
+17. ultralytics >=8.2.34  
+18. pandas >=1.1.4
+19. seaborn >=0.11.0
+20. setuptools >=70.0.0  
+21. tritonclient[all] ~2.24.0
+22. tensorboard >=2.17.0  
+
+# Dipendenze opzionali:
+# clearml >=1.2.0
+# comet
+# coremltools >=6.0  # Esportazione CoreML
+# onnx >=1.10.0  # Esportazione ONNX
+# onnx-simplifier >=0.4.1  # Semplificatore ONNX
+# nvidia-pyindex  # Esportazione TensorRT
+# nvidia-tensorrt  # Esportazione TensorRT
+# scikit-learn <=1.1.2  # Quantizzazione CoreML
+# tensorflow >=2.4.0, <=2.13.1  # Esportazione TF (-cpu, -aarch64, -macos)
+# tensorflowjs >=3.9.0  # Esportazione TF.js
+# openvino-dev >=2023.0  # Esportazione OpenVINO
+# ipython  # Notebook interattivo
+# mss  # Screenshot
+# albumentations >=1.0.3
+# pycocotools >=2.0.6  # mAP COCO

@@ -1,0 +1,10 @@
+
+# config.yaml
+train_data_path: "./Dataset/train/images"
+val_data_path: "./Dataset/Personal/images"
+detect_data_path: "./Dataset/test/images"
+epochs: 2       # Numero di epoche per l'addestramento
+img_size: 128       # Dimensione delle immagini
+batch_size: 64      # Dimensione del batch
+use_fixed_seed: false  # true per seed fisso, false per generarlo casualmente
+seed: 12345          # Seed fisso (usato solo se use_fixed_seed è true)
